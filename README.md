@@ -68,7 +68,9 @@ The application integrates **Razorpay Payment Gateway** with a Node.js/Express b
                                            ▼
                                       Payment
                                       Verification
-💳 Payment Workflow
+```text
+
+# 💳 Payment Workflow
 
 One of the core components of FOREVER is its Razorpay payment integration.
 
