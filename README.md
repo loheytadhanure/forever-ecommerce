@@ -68,9 +68,10 @@ The application integrates **Razorpay Payment Gateway** with a Node.js/Express b
                                            ▼
                                       Payment
                                       Verification
-```text
 
+```
 # 💳 Payment Workflow
+```text
 
 One of the core components of FOREVER is its Razorpay payment integration.
 
@@ -120,7 +121,9 @@ One of the core components of FOREVER is its Razorpay payment integration.
           │
           ▼
     Order Confirmed
-🔐 Payment Security
+```
+# 🔐 Payment Security
+```text
 
 The payment workflow is designed so that sensitive payment operations are handled by the backend rather than trusting the frontend.
 
@@ -139,8 +142,10 @@ RAZORPAY_KEY_ID=your_key_id
 RAZORPAY_KEY_SECRET=your_key_secret
 
 Never expose RAZORPAY_KEY_SECRET in frontend code or commit it to GitHub.
+```
 
 # 📦 Order Lifecycle
+```text
 Product Selection
        │
        ▼
@@ -163,10 +168,11 @@ Order Created
        │
        ▼
 Order History
-
 This separates the payment process from the application's order management, allowing the backend to verify the transaction before finalizing the order.
+```
 
 # 🛠️ Tech Stack
+```text
 Frontend
 React.js
 TypeScript
@@ -185,8 +191,10 @@ Git
 GitHub
 npm
 VS Code
+```
 
 # 📸 Application
+```text
 🏠 Home Page
 
 🛍️ Product Listing
@@ -196,8 +204,10 @@ VS Code
 💳 Razorpay Checkout
 
 📦 Order Confirmation
+```
 
 # 👨‍💻 Key Technical Contributions
+```text
 Developed the full-stack e-commerce workflow.
 Built REST APIs using Node.js and Express.
 Integrated PostgreSQL for persistent application data.
@@ -207,11 +217,12 @@ Implemented backend payment-order creation.
 Added payment verification before completing orders.
 Connected the payment lifecycle with the application's order lifecycle.
 Implemented environment-based configuration for payment credentials.
+```
 
 # 🚀 Getting Started
+```text
 1. Clone the repository
 git clone https://github.com/loheytadhanure/Internship.git
-
 cd forever_ecommerce
 2. Install dependencies
 Frontend
@@ -234,9 +245,10 @@ npm run dev
 5. Start the frontend
 cd ../frontend
 npm run dev
+```
 
 # 🔌 Payment API Flow
-
+```text
 A simplified payment flow:
 
 Frontend
@@ -267,8 +279,10 @@ Database
    │
    ▼
 Order confirmed
+```
 
 # 🎯 What I Learned
+```text
 Through this project, I gained hands-on experience with:
 
 Full-stack application development
@@ -282,8 +296,10 @@ Payment verification
 Order lifecycle management
 Frontend-backend communication
 Environment-based secret management
+```
 
 # 🔮 Future Improvements
+```text
 Webhook-based payment status synchronization
 Payment failure and retry handling
 Refund management
@@ -293,12 +309,15 @@ Inventory synchronization
 Automated payment reconciliation
 Dockerized deployment
 CI/CD pipeline
+```
 
 # 👨‍💻 Author
+```text
 Loheyta Dhanure
 
 B.E. Electronics & Telecommunication Engineering
 AIML Honors — PICT
+```
 
 GitHub
 
