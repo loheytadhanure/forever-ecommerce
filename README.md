@@ -138,7 +138,7 @@ RAZORPAY_KEY_SECRET=your_key_secret
 
 Never expose RAZORPAY_KEY_SECRET in frontend code or commit it to GitHub.
 
-📦 Order Lifecycle
+# 📦 Order Lifecycle
 Product Selection
        │
        ▼
@@ -164,7 +164,7 @@ Order History
 
 This separates the payment process from the application's order management, allowing the backend to verify the transaction before finalizing the order.
 
-🛠️ Tech Stack
+# 🛠️ Tech Stack
 Frontend
 React.js
 TypeScript
@@ -183,7 +183,8 @@ Git
 GitHub
 npm
 VS Code
-📸 Application
+
+# 📸 Application
 🏠 Home Page
 
 🛍️ Product Listing
@@ -194,7 +195,7 @@ VS Code
 
 📦 Order Confirmation
 
-👨‍💻 Key Technical Contributions
+# 👨‍💻 Key Technical Contributions
 Developed the full-stack e-commerce workflow.
 Built REST APIs using Node.js and Express.
 Integrated PostgreSQL for persistent application data.
@@ -205,11 +206,11 @@ Added payment verification before completing orders.
 Connected the payment lifecycle with the application's order lifecycle.
 Implemented environment-based configuration for payment credentials.
 
-🚀 Getting Started
+# 🚀 Getting Started
 1. Clone the repository
 git clone https://github.com/loheytadhanure/Internship.git
 
-cd Internship
+cd forever_ecommerce
 2. Install dependencies
 Frontend
 cd frontend
@@ -232,7 +233,7 @@ npm run dev
 cd ../frontend
 npm run dev
 
-🔌 Payment API Flow
+# 🔌 Payment API Flow
 
 A simplified payment flow:
 
@@ -264,7 +265,8 @@ Database
    │
    ▼
 Order confirmed
-🎯 What I Learned
+
+# 🎯 What I Learned
 Through this project, I gained hands-on experience with:
 
 Full-stack application development
@@ -279,7 +281,7 @@ Order lifecycle management
 Frontend-backend communication
 Environment-based secret management
 
-🔮 Future Improvements
+# 🔮 Future Improvements
 Webhook-based payment status synchronization
 Payment failure and retry handling
 Refund management
@@ -290,7 +292,7 @@ Automated payment reconciliation
 Dockerized deployment
 CI/CD pipeline
 
-👨‍💻 Author
+# 👨‍💻 Author
 Loheyta Dhanure
 
 B.E. Electronics & Telecommunication Engineering
