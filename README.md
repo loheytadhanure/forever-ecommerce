@@ -204,6 +204,7 @@ Implemented backend payment-order creation.
 Added payment verification before completing orders.
 Connected the payment lifecycle with the application's order lifecycle.
 Implemented environment-based configuration for payment credentials.
+
 🚀 Getting Started
 1. Clone the repository
 git clone https://github.com/loheytadhanure/Internship.git
@@ -230,6 +231,7 @@ npm run dev
 5. Start the frontend
 cd ../frontend
 npm run dev
+
 🔌 Payment API Flow
 
 A simplified payment flow:
@@ -263,7 +265,6 @@ Database
    ▼
 Order confirmed
 🎯 What I Learned
-
 Through this project, I gained hands-on experience with:
 
 Full-stack application development
@@ -277,6 +278,7 @@ Payment verification
 Order lifecycle management
 Frontend-backend communication
 Environment-based secret management
+
 🔮 Future Improvements
 Webhook-based payment status synchronization
 Payment failure and retry handling
@@ -287,8 +289,8 @@ Inventory synchronization
 Automated payment reconciliation
 Dockerized deployment
 CI/CD pipeline
-👨‍💻 Author
 
+👨‍💻 Author
 Loheyta Dhanure
 
 B.E. Electronics & Telecommunication Engineering
@@ -299,14 +301,3 @@ GitHub
 📄 License
 
 This project was developed for educational and portfolio purposes.
-
-
-### One thing I'd emphasize visually
-
-For this project, your **four most important screenshots** should be:
-
-```text
-1. 🏠 E-commerce homepage
-2. 🛒 Cart / Checkout
-3. 💳 Razorpay payment screen
-4. ✅ Successful payment → Order confirmation
